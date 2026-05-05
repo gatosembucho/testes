@@ -1,5 +1,5 @@
 import pytest
-from calc import soma, sub, div, mult, comp, imp,cel, fare
+from calc import soma, sub, div, mult, comp, imp,cel, fare, quadrado, retangulo, elipse
 
 def test_soma():
     assert soma(2,3) == 5
@@ -24,3 +24,12 @@ def test_cel():
 
 def teste_fare():
     assert fare(0)==32
+
+def test_quadrado():
+    assert quadrado(5)==25
+
+def test_retangulo():
+    assert retangulo(3,2)==6
+
+def test_elipse():
+    assert elipse(3,2)==18.84

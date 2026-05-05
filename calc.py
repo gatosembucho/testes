@@ -1,3 +1,4 @@
+
 def soma (a,i):
      return a+i 
 
@@ -29,3 +30,16 @@ def cel (a):
 
 def fare (a):
     return (a*1.8)+32
+
+##################################areas#################################
+
+def quadrado(a):
+    return a**2
+
+def retangulo(a,i):
+    return a*i
+
+def elipse(a,i):
+    return 3.14 * a * i
+
+##################################conversao#################################
