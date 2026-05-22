@@ -43,3 +43,21 @@ def elipse(a,i):
     return 3.14 * a * i
 
 ##################################conversao#################################
+def centimetros(a):
+    return a/100
+
+def metros(a):
+    return a*100
+
+def litros(a):
+    return a * 1000
+
+def mililitros(a):
+    return a / 1000
+
+def dolar(a):
+    return a*5
+
+def real(a):
+    return a/5
+##################################slario liquido#################################

@@ -1,5 +1,5 @@
 import pytest
-from calc import soma, sub, div, mult, comp, imp,cel, fare, quadrado, retangulo, elipse
+from calc import soma, sub, div, mult, comp, imp,cel, fare, quadrado, retangulo, elipse, centimetros, metros
 
 def test_soma():
     assert soma(2,3) == 5
@@ -33,3 +33,10 @@ def test_retangulo():
 
 def test_elipse():
     assert elipse(3,2)==18.84
+
+def test_metros():
+    assert metros(1)==100
+    
+def test_cent():
+    assert centimetros(100)==1
+    
