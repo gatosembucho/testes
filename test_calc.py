@@ -1,5 +1,5 @@
 import pytest
-from calc import soma, sub, div, mult, comp, imp,cel, fare, quadrado, retangulo, elipse, centimetros, metros
+from calc import soma, sub, div, mult, comp, imp,cel, fare, quadrado, retangulo, elipse, centimetros, metros,litros,mililitros,real,dolar,salario,autenticar
 
 def test_soma():
     assert soma(2,3) == 5
@@ -40,3 +40,20 @@ def test_metros():
 def test_cent():
     assert centimetros(100)==1
     
+def test_litros():
+    assert litros(1)==1000
+    
+def test_mil():
+    assert mililitros(1000)==1
+
+def test_dolar():
+    assert dolar(1)==5
+    
+def test_real():
+    assert real(5)==1
+    
+def test_salario():
+    assert (100, 5)== 5000
+    
+def teste_autenticar():
+    assert ("ana", "julia")=="maluzinha","123"

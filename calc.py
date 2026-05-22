@@ -61,3 +61,14 @@ def dolar(a):
 def real(a):
     return a/5
 ##################################slario liquido#################################
+def salario(a,b):
+    pagamento = a * b
+    if pagamento>5000:
+        pagamento=pagamento * 0.81
+    else:
+        pagamento= pagamento*0.89
+    
+    return pagamento
+##################################login#################################
+def autenticar(a,b):
+    return a == "maluzinha" and b == "123"
